@@ -9,11 +9,14 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        darknavy: '#05081D',
+        wagerGreen: '#41F7B5',
+        wagerBlue: '#323A76',
+        wagerYellow: '#FFCA40',
+        wagerLilac: '#8D3DF2',       
       },
     },
   },
-  plugins: [],
+  plugins: [require('daisyui')],
 };
 export default config;
