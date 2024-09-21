@@ -16,7 +16,7 @@ const IconButton: React.FC<ButtonProps> = ({ icon, title, href, classes }) => {
       href={href}
       className={
         classes +
-        'inline-flex px-3 justify-center items-center gap-1 flex-shrink-0 text-sm bg-transparent text-white rounded-lg transition-all duration-300 hover:opacity-60'
+        'inline-flex px-3 justify-center items-center gap-1 flex-shrink-0 text-lg bg-transparent text-white rounded-lg transition-all duration-300 hover:opacity-60'
       }
     >
       {icon && (
