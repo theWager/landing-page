@@ -4,7 +4,6 @@ import Link from 'next/link'
 import React from 'react'
 import Discord from '../assets/discord.svg'
 import Logo from '../assets/wager.svg'
-import Telegram from '../assets/telegram.svg'
 import IconButton from './Button'
 
 
@@ -33,12 +32,6 @@ const Navbar: React.FC<NavbarProps> = () => {
           title='Discord'
           href='#'
           classes='hidden md:inline-flex mr-4'
-        />
-        <IconButton
-          icon={Telegram}
-          title='Telegram'
-          href='#'
-          classes='hidden md:inline-flex mr-6'
         />
       </div>
     </nav>
