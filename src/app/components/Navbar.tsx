@@ -1,22 +1,19 @@
 'use client'
 import Image from 'next/image'
 import Link from 'next/link'
-import { usePathname } from 'next/navigation'
 import React from 'react'
 import Discord from '../assets/discord.svg'
 import Logo from '../assets/wager.svg'
 import Telegram from '../assets/telegram.svg'
 import IconButton from './Button'
-import { DotGothic16 } from 'next/font/google'
 
-const dg16 = DotGothic16({ subsets: ['latin'], weight: ['400'] })
 
 type NavbarProps = {
   isHome?: boolean
 }
 
-const Navbar: React.FC<NavbarProps> = ({ isHome = false }) => {
-  const pathname = usePathname()
+const Navbar: React.FC<NavbarProps> = () => {
+
 
   return (
     <nav
