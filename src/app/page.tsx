@@ -32,7 +32,7 @@ const Index = () => {
         </h1>
         <div className='flex gap-6 mt-12'>
           <IconButton
-            href='/all-bets' // set to app.thewager.lol
+            href='app.thewager.lol'
             classes='bg-wagerLilac/50 px-6  text-white text-base font-bold inline-flex py-2 md:ml-6 transition-all duration-300 hover:-translate-y-2 '
             title='Get started'
           />
