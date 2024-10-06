@@ -36,11 +36,6 @@ const Index = () => {
             classes='bg-wagerLilac/50 px-6  text-white text-base font-bold inline-flex py-2 md:ml-6 transition-all duration-300 hover:-translate-y-2 '
             title='Get started'
           />
-          <IconButton
-            classes='inline-flex px-3 md:px-6 py-2 rounded-lg bg-transparent text-base font-light text-gray-400 transition-all duration-300 hover:-translate-y-2 '
-            href='#'
-            title='Read Documentation'
-          />
         </div>
       </div>
       <Image
